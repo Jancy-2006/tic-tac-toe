@@ -14,7 +14,7 @@ A simple and interactive Tic Tac Toe game built using **HTML, CSS, and JavaScrip
 - ✨ Winning cell animation
 - 📱 Responsive design
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML5
 - CSS3
