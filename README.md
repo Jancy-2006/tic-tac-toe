@@ -1,8 +1,8 @@
-# 🎮 Tic Tac Toe Game
+#  Tic Tac Toe Game
 
 A simple and interactive Tic Tac Toe game built using **HTML, CSS, and JavaScript**.
 
-## 🚀 Features
+## Features
 
 - 🎮 Two Player Mode
 - 🤖 Play Against AI Mode
@@ -21,7 +21,7 @@ A simple and interactive Tic Tac Toe game built using **HTML, CSS, and JavaScrip
 - JavaScript
 - DOM Manipulation
 
-## 🎯 How to Play
+##  How to Play
 
 ### 2 Players
 
@@ -38,7 +38,7 @@ A simple and interactive Tic Tac Toe game built using **HTML, CSS, and JavaScrip
 3. The AI plays as O.
 4. Try to get three marks in a row before the AI.
 
-## 🏆 Winning Combinations
+##  Winning Combinations
 
 There are 8 possible winning combinations:
 
@@ -46,7 +46,7 @@ There are 8 possible winning combinations:
 - Columns
 - Diagonals
 
-## 💻 How to Run
+##  How to Run
 
 Clone this repository:
 
