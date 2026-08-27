@@ -1,0 +1,276 @@
+:root {
+    --muted: #94a3b8;
+    color: #e6eef8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 24px;
+
+    background: #020617;
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* Main application */
+
+.app {
+    width: 100%;
+    max-width: 540px;
+
+    background:
+        radial-gradient(
+            1200px 400px at 10% 10%,
+            rgba(124, 58, 237, 0.08),
+            transparent 10%
+        ),
+        rgba(8, 12, 20, 0.6);
+
+    border-radius: 12px;
+
+    padding: 22px;
+
+    box-shadow:
+        0 10px 30px rgba(2, 6, 23, 0.6);
+}
+
+
+/* Heading */
+
+h1 {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+
+/* Controls */
+
+.controls {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 12px;
+}
+
+.modes label {
+    margin-right: 8px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+    color: var(--muted);
+}
+
+
+/* Buttons */
+
+.buttons button {
+    margin-left: 6px;
+
+    padding: 8px 12px;
+
+    border-radius: 8px;
+
+    border: none;
+
+    background: #112031;
+
+    color: #d9eefb;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.buttons button:hover {
+    background: #1e3a5f;
+
+    transform: translateY(-2px);
+}
+
+
+/* Game Board */
+
+.board {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 8px;
+
+    margin: 10px auto 16px;
+
+    width: 320px;
+    height: 320px;
+}
+
+
+/* Individual cells */
+
+.cell {
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.02),
+            rgba(255, 255, 255, 0.01)
+        );
+
+    border-radius: 12px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 56px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    user-select: none;
+
+    transition:
+        transform 150ms ease,
+        box-shadow 150ms ease,
+        background 150ms ease;
+
+    box-shadow:
+        inset 0 -6px 14px rgba(2, 6, 23, 0.45);
+}
+
+
+/* Cell hover */
+
+.cell:hover {
+    transform: translateY(-4px);
+
+    background: rgba(255, 255, 255, 0.05);
+}
+
+
+/* Used cells */
+
+.cell.disabled {
+    cursor: not-allowed;
+
+    opacity: 0.9;
+}
+
+
+/* Winning cells */
+
+.winning-cell {
+    animation: winPulse 800ms ease-in-out infinite alternate;
+
+    box-shadow:
+        0 0 24px 4px rgba(245, 158, 11, 0.18),
+        0 6px 30px rgba(0, 0, 0, 0.5) inset;
+}
+
+
+/* Winning animation */
+
+@keyframes winPulse {
+
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.06) rotate(-1deg);
+    }
+
+}
+
+
+/* Status */
+
+.status {
+    text-align: center;
+
+    margin-bottom: 12px;
+}
+
+.status p {
+    font-size: 18px;
+
+    font-weight: bold;
+
+    margin: 0;
+}
+
+
+/* Scoreboard */
+
+.scoreboard {
+    background: rgba(255, 255, 255, 0.02);
+
+    padding: 12px;
+
+    border-radius: 8px;
+}
+
+.scoreboard h2 {
+    text-align: center;
+
+    margin-top: 0;
+}
+
+
+.scores {
+    display: flex;
+
+    justify-content: space-around;
+
+    font-weight: 600;
+}
+
+
+/* Footer */
+
+.credits {
+    text-align: center;
+
+    margin-top: 12px;
+
+    color: var(--muted);
+
+    font-size: 13px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 420px) {
+
+    .board {
+        width: 260px;
+        height: 260px;
+    }
+
+    .cell {
+        font-size: 44px;
+    }
+
+    .controls {
+        flex-direction: column;
+
+        gap: 12px;
+    }
+
+}
