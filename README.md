@@ -4,7 +4,7 @@ A simple and interactive Tic Tac Toe game built using **HTML, CSS, and JavaScrip
 
 ## Features
 
-- 🎮 Two Player Mode
+- 🎮 Two Player Mode  
 - 🤖 Play Against AI Mode
 - 🔄 Rematch option
 - ♻️ Reset game option
