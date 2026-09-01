@@ -16,10 +16,10 @@ A simple and interactive Tic Tac Toe game built using **HTML, CSS, and JavaScrip
 
 ##  Technologies Used..
 
-- HTML5
-- CSS3
-- JavaScript
-- DOM Manipulation
+* HTML5
+* CSS3
+* JavaScript
+* DOM Manipulation
 
 ##  How to Play..
 
@@ -42,9 +42,9 @@ A simple and interactive Tic Tac Toe game built using **HTML, CSS, and JavaScrip
 
 There are 8 possible winning combinations:
 
-- Rows
-- Columns
-- Diagonals
+* Rows
+* Columns
+* Diagonals
 
 ##  How to Run..
 
