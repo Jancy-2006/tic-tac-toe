@@ -4,15 +4,15 @@ A simple and interactive Tic Tac Toe game built using **HTML, CSS, and JavaScrip
 
 ## Features..
 
-- 🎮 Two Player Mode  
-- 🤖 Play Against AI Mode
-- 🔄 Rematch option
-- ♻️ Reset game option
-- 🏆 Winner detection
-- 🤝 Draw detection
-- 📊 Scoreboard
-- ✨ Winning cell animation
-- 📱 Responsive design
+* 🎮 Two Player Mode  
+* 🤖 Play Against AI Mode
+* 🔄 Rematch option
+* ♻️ Reset game option
+* 🏆 Winner detection
+* 🤝 Draw detection
+* 📊 Scoreboard
+* ✨ Winning cell animation
+* 📱 Responsive design
 
 ##  Technologies Used..
 
