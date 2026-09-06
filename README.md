@@ -1,4 +1,4 @@
-#  Tic Tac Toe Game.
+#  Tic Tac Toe Game..
 
 A simple and interactive Tic Tac Toe game built using **HTML, CSS, and JavaScript**.
 
@@ -39,7 +39,7 @@ A simple and interactive Tic Tac Toe game built using **HTML, CSS, and JavaScrip
 4. Try to get three marks in a row before the AI.
 
 ##  Winning Combinations...
-
+       
 There are 8 possible winning combinations:
 
 * Rows
