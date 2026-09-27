@@ -5,7 +5,7 @@
 
 // Game variables
 
-let board = Array(9).fill(null);
+let board = Array(9).fill(null);  
 
 let currentPlayer = "X";
 
