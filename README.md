@@ -2,7 +2,7 @@
 
 A simple and interactive Tic Tac Toe game built using **HTML, CSS, and JavaScript**.
 
-## Features...      
+## Features.     
 
 * 🎮 Two Player Mode game 
 * 🤖 Play Against AI Mode
