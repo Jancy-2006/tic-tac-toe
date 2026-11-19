@@ -439,13 +439,13 @@ document
 // ========================================
 
 rematchBtn.addEventListener(
-    "click",
+    "Click",
     rematchGame
 );
 
 
 resetBtn.addEventListener(
-    "click",
+    "Click",
     resetGame
 );
 
