@@ -259,8 +259,8 @@ h1 {
 @media (max-width: 420px) {
 
     .board {
-        width: 260px;
-        height: 260px;
+        width: 280px;
+        height: 280px;
     }
 
     .cell {
